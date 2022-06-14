@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chira\\OneDriveCampbellsvilleUniversity\\Desktop\\Learning\\.Net\\MicroservicesArchitecture\\PLAY.CATALOG\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {}
+    "C:\\Users\\chira\\OneDriveCampbellsvilleUniversity\\Desktop\\Learning\\.Net\\MicroservicesArchitecture\\MicroserviceExamples\\PLAY.CATALOG\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chira\\OneDriveCampbellsvilleUniversity\\Desktop\\Learning\\.Net\\MicroservicesArchitecture\\PLAY.CATALOG\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {
+    "C:\\Users\\chira\\OneDriveCampbellsvilleUniversity\\Desktop\\Learning\\.Net\\MicroservicesArchitecture\\MicroserviceExamples\\PLAY.CATALOG\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chira\\OneDriveCampbellsvilleUniversity\\Desktop\\Learning\\.Net\\MicroservicesArchitecture\\PLAY.CATALOG\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+        "projectUniqueName": "C:\\Users\\chira\\OneDriveCampbellsvilleUniversity\\Desktop\\Learning\\.Net\\MicroservicesArchitecture\\MicroserviceExamples\\PLAY.CATALOG\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
         "projectName": "Play.Catalog.Service",
-        "projectPath": "C:\\Users\\chira\\OneDriveCampbellsvilleUniversity\\Desktop\\Learning\\.Net\\MicroservicesArchitecture\\PLAY.CATALOG\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+        "projectPath": "C:\\Users\\chira\\OneDriveCampbellsvilleUniversity\\Desktop\\Learning\\.Net\\MicroservicesArchitecture\\MicroserviceExamples\\PLAY.CATALOG\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
         "packagesPath": "C:\\Users\\chira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chira\\OneDriveCampbellsvilleUniversity\\Desktop\\Learning\\.Net\\MicroservicesArchitecture\\PLAY.CATALOG\\src\\Play.Catalog.Service\\obj\\",
+        "outputPath": "C:\\Users\\chira\\OneDriveCampbellsvilleUniversity\\Desktop\\Learning\\.Net\\MicroservicesArchitecture\\MicroserviceExamples\\PLAY.CATALOG\\src\\Play.Catalog.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chira\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
